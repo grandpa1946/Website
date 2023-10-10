@@ -28,7 +28,7 @@ function check() {
         return;
       }
     }
-    values("No bypasses found", "✗", "✗", "There is no bypass for this site. <a class='link' href='https://github.com/FastForwardTeam/FastForward/issues/new'>Open an issue on GitHub?</a>");
+    values("No bypasses found", "✗", "✗", "There is no bypass for this site. <a class='link' href='https://github.com/FastForwardTeam/FastForward/issues/new?assignees=&labels=Broken-bypass&projects=&template=broken-bypass.yml'>Open an issue on GitHub?</a>");
   } else {
     values("", "", "", "");
   }
